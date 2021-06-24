@@ -39,6 +39,9 @@ class BinarySearchTreePhoneBook:
     	return self.num_nodes
 
     def insert(self, node, root=''):
+        if self.root == None:
+            self.root = node 
+            return
         if root == '':
             root = self.root
         if root == None:
