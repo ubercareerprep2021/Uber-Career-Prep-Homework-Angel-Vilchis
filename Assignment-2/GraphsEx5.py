@@ -66,5 +66,5 @@ print(can_finish_all_courses(2, [[1, 0], [0,1]])) # False
 print(can_finish_all_courses(5, [[3, 4, 1], [0,1], [2, 1]]))  # True
 print(can_finish_all_courses(3, [[0, 1, 2], [2, 0]]))  # False
 print(can_finish_all_courses(9, [[4, 5, 6, 7, 8, 9],
-								 [3, 2, 1],
-								 [2, 0]])) # True
+				[3, 2, 1],
+				[2, 0]])) # True
